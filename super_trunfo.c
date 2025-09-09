@@ -13,25 +13,26 @@ int main() {
     printf("Cadastro da Carta 1:\n");
 
     printf("Digite o Estado: ");
-    scanf(" %s", &estado1);
+    scanf(" %s", &estado1); // "%s" lê uma string (sem espaços). Não precisa do "&" pois arrays já são ponteiros
 
-    printf("Digite o Codigo da Carta (ex: A01): ");
-    scanf("%s", codigo1);
+
+    printf("Digite o Codigo da Carta (ex: A01): "); 
+    scanf("%s", codigo1); // Lê o código da carta
 
     printf("Digite o Nome da Cidade: ");
-    scanf(" %s", cidade1); 
+    scanf(" %s", cidade1);  // Lê o nome da cidade
 
     printf("Digite a Populacao: ");
-    scanf("%d", &populacao1);
+    scanf("%d", &populacao1); // "%d" lê um inteiro
 
     printf("Digite a Area (em km²): ");
-    scanf("%f", &area1);
+    scanf("%f", &area1); // "%f" lê um float
 
     printf("Digite o PIB (em bilhões de reais): ");
-    scanf("%f", &pib1);
+    scanf("%f", &pib1); // lê o pib
 
     printf("Digite o Numero de Pontos Turisticos: ");
-    scanf("%d", &pontosTuristicos1);
+    scanf("%d", &pontosTuristicos1); // Lê p múmero de pontos turísticos
 
 
     // ================== CARTA 2 ==================
